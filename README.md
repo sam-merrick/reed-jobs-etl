@@ -29,7 +29,8 @@ Raw data saved as JSON (Bronze layer).
 
 ## Project structure
 
-├── config.py # All configuration in one place
+├── 
+config.py # All configuration in one place
 ├── scraper.py # Extract — scrapes reed.co.uk
 ├── transform.py # Transform — cleans and structures raw data
 ├── pipeline.py # Orchestrates extract → transform → load
