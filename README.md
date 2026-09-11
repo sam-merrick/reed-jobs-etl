@@ -39,7 +39,6 @@ Raw data saved as JSON (Bronze layer).
     └── jobs_clean.parquet   # Cleaned output (Silver)
 ```
 
-
 ## Output columns
 
 | Column | Description |
