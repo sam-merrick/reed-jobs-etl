@@ -29,13 +29,15 @@ Raw data saved as JSON (Bronze layer).
 
 ## Project structure
 
-├── config.py # All configuration in one place
-├── scraper.py # Extract — scrapes reed.co.uk
-├── transform.py # Transform — cleans and structures raw data
-├── pipeline.py # Orchestrates extract → transform → load
-└── data/ # Generated on run, git ignored
-├── raw_jobs.json # Raw scraped data (Bronze)
-└── jobs_clean.parquet # Cleaned output (Silver)
+```
+├── config.py       # All configuration in one place
+├── scraper.py      # Extract — scrapes reed.co.uk
+├── transform.py    # Transform — cleans and structures raw data
+├── pipeline.py     # Orchestrates extract → transform → load
+└── data/           # Generated on run, git ignored
+    ├── raw_jobs.json        # Raw scraped data (Bronze)
+    └── jobs_clean.parquet   # Cleaned output (Silver)
+```
 
 
 ## Output columns
